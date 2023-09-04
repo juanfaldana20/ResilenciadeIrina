@@ -6723,6 +6723,34 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: 21300000, guid: d327dde2a1e781f4287db0d57cd5eead, type: 3}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: 110d1944e06877748bed5423680c5f47, type: 3}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6653214391055899988, guid: e5db301629853dd4a99835fa70099d79, type: 3}
       propertyPath: m_Enabled
       value: 1
