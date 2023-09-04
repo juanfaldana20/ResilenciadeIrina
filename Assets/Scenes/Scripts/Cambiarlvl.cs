@@ -9,6 +9,7 @@ public class Cambiarlvl : MonoBehaviour
 
 public void loadScene(String sceneName)
 {
+    Debug.Log("Cambiando a la escena: " + sceneName);
     SceneManager.LoadScene(sceneName);
 }
     
