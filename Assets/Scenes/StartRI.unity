@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -339,7 +339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 242841140}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 361936549}
+        m_TargetAssemblyTypeName: Cambiarlvl, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CuartoIrina
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &242841140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,6 +404,7 @@ GameObject:
   - component: {fileID: 361936545}
   - component: {fileID: 361936544}
   - component: {fileID: 361936543}
+  - component: {fileID: 361936549}
   m_Layer: 5
   m_Name: INICIO
   m_TagString: Untagged
@@ -522,6 +535,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0.19, y: 3.24}
   m_SizeDelta: {x: 800, y: 362.94275}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &361936549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361936542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110d1944e06877748bed5423680c5f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &390816108
 GameObject:
   m_ObjectHideFlags: 0
