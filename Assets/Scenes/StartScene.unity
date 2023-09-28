@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2585,11 +2585,15 @@ MonoBehaviour:
     m_Options:
     - m_Text: Seleccionar
       m_Image: {fileID: 0}
-    - m_Text: Como Estas
+    - m_Text: Andres Felipe Acosta
       m_Image: {fileID: 0}
-    - m_Text: Feliz
+    - m_Text: Andres Eduardo Acosta
       m_Image: {fileID: 0}
-    - m_Text: Goku
+    - m_Text: Juan Fernando Aldana
+      m_Image: {fileID: 0}
+    - m_Text: Julieta Lara Romero
+      m_Image: {fileID: 0}
+    - m_Text: Isabella Correa Constain
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2802,6 +2806,10 @@ PrefabInstance:
       value: POR TU SEGURIDAD
       objectReference: {fileID: 0}
     - target: {fileID: 5638253712277498750, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
+    - target: {fileID: 5638253712277498750, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
       objectReference: {fileID: 0}
@@ -2890,6 +2898,10 @@ PrefabInstance:
       value: "Pregunta en voz alta qu\xE9 supervisor est\xE1 a cargo de tu experiencia,
         selecciona el nombre. "
       objectReference: {fileID: 0}
+    - target: {fileID: 7083281397116298145, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     - target: {fileID: 7782198574890342273, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3512,7 +3524,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 0

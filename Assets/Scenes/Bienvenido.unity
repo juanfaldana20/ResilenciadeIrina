@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2103,7 +2103,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -2742,11 +2742,13 @@ MonoBehaviour:
     m_Options:
     - m_Text: Seleccionar
       m_Image: {fileID: 0}
-    - m_Text: Como Estas
+    - m_Text: Hombre
       m_Image: {fileID: 0}
-    - m_Text: Feliz
+    - m_Text: Mujer
       m_Image: {fileID: 0}
-    - m_Text: Goku
+    - m_Text: No Binario
+      m_Image: {fileID: 0}
+    - m_Text: Prefiero no decirlo
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3488,7 +3490,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -4520,7 +4522,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -4972,7 +4974,7 @@ GameObject:
   - component: {fileID: 1769048968}
   - component: {fileID: 1769048967}
   m_Layer: 5
-  m_Name: Genero
+  m_Name: "G\xE9nero"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5018,7 +5020,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -5030,7 +5032,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Genero
+  m_Text: "G\xE9nero"
 --- !u!222 &1769048968
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5132,11 +5134,13 @@ MonoBehaviour:
     m_Options:
     - m_Text: Seleccionar
       m_Image: {fileID: 0}
-    - m_Text: Como Estas
+    - m_Text: 18
       m_Image: {fileID: 0}
-    - m_Text: Feliz
+    - m_Text: 19
       m_Image: {fileID: 0}
-    - m_Text: Goku
+    - m_Text: 20
+      m_Image: {fileID: 0}
+    - m_Text: 20+
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5851,7 +5855,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 44fac8d47afd12d4998fa1a3801e0970, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -5965,11 +5969,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: Seleccionar
       m_Image: {fileID: 0}
-    - m_Text: Como Estas
+    - m_Text: Docente
       m_Image: {fileID: 0}
-    - m_Text: Feliz
+    - m_Text: Estudiante
       m_Image: {fileID: 0}
-    - m_Text: Goku
+    - m_Text: Colaborador
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
