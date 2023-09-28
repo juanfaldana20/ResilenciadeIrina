@@ -17,7 +17,7 @@ public class TrancisionEscena : MonoBehaviour
     public void loadScene()
     {
         StartCoroutine(CambiarEscena());
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     
     }
 

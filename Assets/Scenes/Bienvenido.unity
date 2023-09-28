@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &9235652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +241,6 @@ GameObject:
   - component: {fileID: 9697269}
   - component: {fileID: 9697268}
   - component: {fileID: 9697275}
-  - component: {fileID: 9697276}
   m_Layer: 5
   m_Name: Rename
   m_TagString: Untagged
@@ -409,24 +408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad3d3fab26264b4fa5bb4dc55b26f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown1: {fileID: 0}
-  dropdown2: {fileID: 0}
-  dropdown3: {fileID: 0}
---- !u!114 &9697276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9697267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ad3d3fab26264b4fa5bb4dc55b26f9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dropdown1: {fileID: 0}
-  dropdown2: {fileID: 0}
-  dropdown3: {fileID: 0}
 --- !u!1 &25025199
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,8 +2905,8 @@ GameObject:
   - component: {fileID: 687320810}
   - component: {fileID: 687320809}
   m_Layer: 5
-  m_Name: dropdown2
-  m_TagString: Untagged
+  m_Name: Dropdown2
+  m_TagString: Dropdown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5316,8 +5297,8 @@ GameObject:
   - component: {fileID: 1794967027}
   - component: {fileID: 1794967026}
   m_Layer: 5
-  m_Name: dropdown1
-  m_TagString: Untagged
+  m_Name: Dropdown3
+  m_TagString: Dropdown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6151,8 +6132,8 @@ GameObject:
   - component: {fileID: 2105256979}
   - component: {fileID: 2105256978}
   m_Layer: 5
-  m_Name: dropdown1
-  m_TagString: Untagged
+  m_Name: Dropdown1
+  m_TagString: Dropdown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

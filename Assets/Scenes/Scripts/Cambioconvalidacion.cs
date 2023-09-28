@@ -7,13 +7,26 @@ using UnityEngine.SceneManagement;
 
 public class Cambioconvalidacion : MonoBehaviour
 {
-    public Dropdown dropdown1;
-    public Dropdown dropdown2;
-    public Dropdown dropdown3;
+    private Dropdown[] dropdowns;
+
+    private void Awake()
+    {
+        // Busca todos los objetos con la etiqueta "Dropdown" (o la etiqueta que hayas asignado)
+        GameObject[] dropdownObjects = GameObject.FindGameObjectsWithTag("Dropdown");
+
+        // Inicializa el arreglo de Dropdowns con la longitud de los objetos encontrados
+        dropdowns = new Dropdown[dropdownObjects.Length];
+
+        // Itera a través de los objetos encontrados y busca el componente Dropdown en cada uno
+        for (int i = 0; i < dropdownObjects.Length; i++)
+        {
+            dropdowns[i] = dropdownObjects[i].GetComponent<Dropdown>();
+        }
+    }
 
     public void loadScene(string sceneName)
     {
-        // Verifica si los tres Dropdowns tienen opciones seleccionadas
+        // Verifica si todos los Dropdowns tienen opciones seleccionadas
         if (ValidarDropdowns())
         {
             Debug.Log("Cambiando a la escena: " + sceneName);
@@ -29,7 +42,14 @@ public class Cambioconvalidacion : MonoBehaviour
     private bool ValidarDropdowns()
     {
         // Verifica si todos los Dropdowns tienen opciones seleccionadas diferentes de "Seleccionar"
-        return !EsOpcionDefault(dropdown1) && !EsOpcionDefault(dropdown2) && !EsOpcionDefault(dropdown3);
+        foreach (Dropdown dropdown in dropdowns)
+        {
+            if (EsOpcionDefault(dropdown))
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     private bool EsOpcionDefault(Dropdown dropdown)
