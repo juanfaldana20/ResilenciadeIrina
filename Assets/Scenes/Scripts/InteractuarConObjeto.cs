@@ -2,14 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class InteractuarConObjeto : MonoBehaviour
 {
     public GameObject panelCanvas;
     private bool entornoDetenido = false;
+    public InputActionProperty actionProperty;
 
     // Nombre de la escena a la que quieres cambiar
     public string nombreEscenaACambiar = "NombreDeTuEscena";
+
+        private void Awake()
+    {
+        actionProperty.action.performed += OnButtonPressed;
+    }
+
+    private void OnEnable()
+    {
+        actionProperty.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        actionProperty.action.Disable();
+    }
 
     void Update()
     {
@@ -36,11 +53,6 @@ public class InteractuarConObjeto : MonoBehaviour
             }
         }
 
-        // Cambiar de escena al presionar una tecla específica
-        if (Input.GetKeyDown(KeyCode.B) && entornoDetenido)  // Cambiar KeyCode.B a la tecla que desees
-        {
-            CambiarDeEscena();
-        }
     }
 
     // Método para cambiar de escena
@@ -64,5 +76,13 @@ public class InteractuarConObjeto : MonoBehaviour
 
         // Indicar que el entorno ya no está detenido
         entornoDetenido = false;
+    }
+
+        private void OnButtonPressed(InputAction.CallbackContext context)
+    {
+        if (context.ReadValueAsButton())
+        {
+            CambiarDeEscena();
+        }
     }
 }
