@@ -7,19 +7,20 @@ using UnityEngine.InputSystem;
 public class InteractuarConObjeto : MonoBehaviour
 {
     public GameObject panelCanvas;
+    public AudioClip sonido; // Agrega una variable para el sonido
     private bool entornoDetenido = false;
     private bool isPaused = false;
-    private Transform playerCamera; // Cámara del jugador
+    private Transform playerCamera;
     public InputActionProperty actionProperty;
-    private float distanciaDeseada = 2.0f; // Cambia este valor según tus necesidades
-
-
-    // Nombre de la escena a la que quieres cambiar
+    private float distanciaDeseada = 2.0f;
     public string nombreEscenaACambiar = "NombreDeTuEscena";
 
-        private void Awake()
+    private AudioSource audioSource; // Referencia al componente AudioSource
+
+    private void Awake()
     {
         actionProperty.action.performed += OnButtonPressed;
+        audioSource = GetComponent<AudioSource>(); // Obtiene el componente AudioSource
     }
 
     private void OnEnable()
@@ -32,72 +33,49 @@ public class InteractuarConObjeto : MonoBehaviour
         actionProperty.action.Disable();
     }
 
-     void Start()
+    void Start()
     {
-        playerCamera = Camera.main.transform; // Obtén la cámara principal como la cámara del jugador
+        playerCamera = Camera.main.transform;
     }
-
 
     void Update()
     {
-        // if (Input.GetKeyDown(KeyCode.E) && !entornoDetenido)
-        // {
-        //     // Raycast desde la posición de la cámara
-        //     Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
-        //     RaycastHit hit;
-
-        //     // Verificar si el rayo intersecta con un objeto interactuable
-        //     if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-        //     {
-        //         if (hit.collider.CompareTag("ObjetoInteractuable"))
-        //         {
-        //             // Activar el panel del canvas
-        //             panelCanvas.SetActive(true);
-
-        //             // Detener el resto del entorno
-        //             Time.timeScale = 0f;
-
-        //             // Indicar que el entorno está detenido
-        //             entornoDetenido = true;
-        //         }
-        //     }
-        // }
-
+        
     }
 
-    // Método para cambiar de escena
     public void CambiarDeEscena()
     {
-
-        // Cambiar de escena
         SceneManager.LoadScene(nombreEscenaACambiar);
     }
 
-    
-
-        private void OnButtonPressed(InputAction.CallbackContext context)
+    private void OnButtonPressed(InputAction.CallbackContext context)
     {
         if (context.ReadValueAsButton())
         {
             TogglePausa();
+            ReproducirSonido(); // Llama a la función para reproducir el sonido
         }
     }
 
-        void TogglePausa()
+    void TogglePausa()
     {
         isPaused = !isPaused;
 
         if (isPaused)
         {
-            // Coloca el Canvas frente al jugador.
             panelCanvas.transform.position = playerCamera.position + playerCamera.forward * distanciaDeseada;
             panelCanvas.transform.rotation = playerCamera.rotation;
-
-            // Activa el Canvas de pausa.
             panelCanvas.SetActive(true);
+        }
+    }
 
-            // Bloquea el movimiento y rotación del jugador (ajusta esto según tu controlador de movimiento).
-            // Ejemplo: playerController.LockMovementAndRotation();
+    // Función para reproducir el sonido
+    void ReproducirSonido()
+    {
+        if (sonido != null && audioSource != null)
+        {
+            audioSource.clip = sonido; // Asigna el clip de sonido al AudioSource
+            audioSource.Play(); // Reproduce el sonido
         }
     }
 }
