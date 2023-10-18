@@ -2,12 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Verificacion1 : MonoBehaviour
 {
     public Dropdown dropdown1;
+
 
     public void loadScene(string sceneName)
     {

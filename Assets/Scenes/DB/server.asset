@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef593b97c6000c4ea9af9d1ea74572d, type: 3}
+  m_Name: server
+  m_EditorClassIdentifier: 
+  servidor: http://localhost/resilencia_de_irina
+  servicios:
+  - nombre: datos_usu
+    URL: datos_usu.php
+    parametros:
+    - supervisor
+    - rol
+    - "g\xE9nero"
+    - edad
+    - tiempo
+  - nombre: check
+    URL: check.php
+    parametros: []
+  - nombre: supervisor
+    URL: supervisor.php
+    parametros:
+    - supervisor
+  - nombre: datos
+    URL: datos.php
+    parametros:
+    - rol
+    - "g\xE9nero"
+    - edad
+  ocupado: 0
+  respuesta:
+    codigo: 404
+    mensaje: Error
