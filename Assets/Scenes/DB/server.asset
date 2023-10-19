@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef593b97c6000c4ea9af9d1ea74572d, type: 3}
   m_Name: server
   m_EditorClassIdentifier: 
-  servidor: http://localhost/resilencia_de_irina
+  servidor: http://localhost/Pagina_resilencia_irina
   servicios:
   - nombre: datos_usu
     URL: datos_usu.php
