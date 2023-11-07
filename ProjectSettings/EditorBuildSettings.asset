@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Bienvenido.unity
     guid: 38270de7ce4f5c24780789cb4fb63913
   - enabled: 1
+    path: Assets/Scenes/animaCel.unity
+    guid: 72a3e21271700b7498cdc5c322cb5e7e
+  - enabled: 1
     path: Assets/Scenes/Advertencia.unity
     guid: f651aa7a5a8ffaf42a7628304a3a0afa
   - enabled: 1
