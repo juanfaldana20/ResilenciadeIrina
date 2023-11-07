@@ -468,7 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rawImage: {fileID: 335292020}
   videoClip: {fileID: 32900000, guid: 872b5192f5330784aa6dbaece895c3e1, type: 3}
-  nextSceneName: Universidad
+  nextSceneName: animaUni
 --- !u!4 &1322413437
 Transform:
   m_ObjectHideFlags: 0
