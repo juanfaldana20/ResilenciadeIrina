@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/animaReflexUni.unity
     guid: 50f49fdf25fd831499bc549cde3b3eb4
   - enabled: 1
+    path: Assets/Scenes/CuartoIrina2.unity
+    guid: 610b3a9661c3c10489e68455becca755
+  - enabled: 1
     path: Assets/Scenes/Advertencia.unity
     guid: f651aa7a5a8ffaf42a7628304a3a0afa
   - enabled: 1
