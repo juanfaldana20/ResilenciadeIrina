@@ -468,7 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rawImage: {fileID: 335292020}
   videoClip: {fileID: 32900000, guid: 1110b8d914a74d04ba8a9844919700a8, type: 3}
-  nextSceneName: CasaPapas
+  nextSceneName: animaCasa
 --- !u!4 &1322413437
 Transform:
   m_ObjectHideFlags: 0
