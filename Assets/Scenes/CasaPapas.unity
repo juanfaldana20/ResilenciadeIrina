@@ -3023,13 +3023,48 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 124c4c6c7e99404498989e9d773aec4f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1890224843}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2268493968148393607, guid: 124c4c6c7e99404498989e9d773aec4f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1840092531}
   m_SourcePrefab: {fileID: 100100000, guid: 124c4c6c7e99404498989e9d773aec4f, type: 3}
 --- !u!4 &1840092529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 124c4c6c7e99404498989e9d773aec4f, type: 3}
   m_PrefabInstance: {fileID: 1840092528}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1840092530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2268493968148393607, guid: 124c4c6c7e99404498989e9d773aec4f, type: 3}
+  m_PrefabInstance: {fileID: 1840092528}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840092531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840092530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660d66eaf8ca9ca4a8bb47106685dd7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelCanvas: {fileID: 1880405967}
+  sonido: {fileID: 0}
+  actionProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Action Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3fb51d2c-b9d5-46a8-b208-6f3757f3ee3e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 15759602096507913, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  nombreEscenaACambiar: NombreDeTuEscena
 --- !u!1001 &1861056852
 PrefabInstance:
   m_ObjectHideFlags: 0
