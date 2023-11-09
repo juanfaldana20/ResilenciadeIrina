@@ -98,6 +98,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Capitulo3Scenes/SalonClaudia.unity
     guid: 21f5c40cdcf8ea44985995a1948618cd
+  - enabled: 1
+    path: Assets/Scenes/animaCoPapas.unity
+    guid: 855c3c9286a508c42a5627d3f9145dd6
+  - enabled: 1
+    path: Assets/Scenes/animair.unity
+    guid: b2ecdad73382c9447a243f7a50ef9faf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
