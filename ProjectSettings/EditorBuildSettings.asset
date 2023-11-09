@@ -21,17 +21,32 @@ EditorBuildSettings:
     path: Assets/Scenes/animaReflexUni.unity
     guid: 50f49fdf25fd831499bc549cde3b3eb4
   - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/animaFinal.unity
+    guid: 2048c8db4bf46c144a6032c6bc1fb118
+  - enabled: 1
     path: Assets/Scenes/CuartoIrina2.unity
     guid: 610b3a9661c3c10489e68455becca755
   - enabled: 1
+    path: Assets/Scenes/FINALRuta/RUTAUAO.unity
+    guid: a3747ef7ce6a8b6438cdba2e4b3b1582
+  - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/CorrectaFianal.unity
+    guid: 25ddce85e87b6d242a584152475d19ab
+  - enabled: 1
     path: Assets/Scenes/Advertencia.unity
     guid: f651aa7a5a8ffaf42a7628304a3a0afa
+  - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/animaIrProfe.unity
+    guid: c5b03af6ddded094b8b1386f2d65c446
   - enabled: 1
     path: Assets/Scenes/animaCorrectaUni.unity
     guid: a55eee5c8298480428cf57c09ef42bf5
   - enabled: 1
     path: Assets/Scenes/StartRI.unity
     guid: 105763405740916488501a133b5e2f85
+  - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/OfiVal.unity
+    guid: b98edda1d88062d4ebe804131d0e24a9
   - enabled: 1
     path: Assets/Scenes/CuartoIrina.unity
     guid: 64f2562648d51b94d815f09604febc01
@@ -60,11 +75,23 @@ EditorBuildSettings:
     path: Assets/Scenes/IrinasRooms.unity
     guid: e372371a1b1fafb44975f3465ddd0b38
   - enabled: 1
+    path: Assets/Scenes/animaCorrectaRom.unity
+    guid: 39f0e112b4fb85b4ab154cfb98e42bc8
+  - enabled: 1
     path: Assets/Scenes/animaReflexRom.unity
     guid: c1de0ebd8e3470843875bba7198e2899
   - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/ReflexVal.unity
+    guid: f4dbb405c10a2134a9808aa00f48a883
+  - enabled: 1
     path: Assets/Scenes/animaSalir.unity
     guid: 8efcad98826c6ab448dad96f6df8a227
+  - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/aniIrVal.unity
+    guid: f2be133dd981d8641a87f7f009028650
+  - enabled: 1
+    path: Assets/Scenes/Capitulo3Scenes/EscenasResultados.unity
+    guid: a5c55dcd530ac46499e4ac13d32620f9
   - enabled: 1
     path: Assets/Scenes/animaEps.unity
     guid: 11394479a5d4a0c42992eb0d39d92bde
