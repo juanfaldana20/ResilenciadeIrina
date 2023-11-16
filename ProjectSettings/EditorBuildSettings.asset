@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Bienvenido.unity
     guid: 38270de7ce4f5c24780789cb4fb63913
   - enabled: 1
-    path: Assets/Scenes/animaCel.unity
+    path: Assets/Scenes/cap1/animaCel.unity
     guid: 72a3e21271700b7498cdc5c322cb5e7e
   - enabled: 1
-    path: Assets/Scenes/animaUni.unity
+    path: Assets/Scenes/cap1/animaUni.unity
     guid: 02d04186d6948164995d5f6ba948f544
   - enabled: 1
-    path: Assets/Scenes/animaReflexUni.unity
+    path: Assets/Scenes/cap1/animaReflexUni.unity
     guid: 50f49fdf25fd831499bc549cde3b3eb4
   - enabled: 1
     path: Assets/Scenes/Capitulo3Scenes/animaFinal.unity
@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Capitulo3Scenes/animaIrProfe.unity
     guid: c5b03af6ddded094b8b1386f2d65c446
   - enabled: 1
-    path: Assets/Scenes/animaCorrectaUni.unity
+    path: Assets/Scenes/cap1/animaCorrectaUni.unity
     guid: a55eee5c8298480428cf57c09ef42bf5
   - enabled: 1
     path: Assets/Scenes/StartRI.unity
@@ -54,13 +54,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Universidad.unity
     guid: fe33203deebf64642abaa7d463ed6bb2
   - enabled: 1
-    path: Assets/Scenes/animacion.unity
+    path: Assets/Scenes/cap1/animacion.unity
     guid: e5b063303a77f114f824531a90b26fb2
   - enabled: 1
-    path: Assets/Scenes/animacionpuerta.unity
+    path: Assets/Scenes/cap1/animacionpuerta.unity
     guid: d91df559f5323af4197f7eb420eb0066
   - enabled: 1
-    path: Assets/Scenes/animaReflex.unity
+    path: Assets/Scenes/cap1/animaReflex.unity
     guid: 2b96dbdb45109084a80d1d4ed25c3834
   - enabled: 1
     path: Assets/Scenes/CasaPapas.unity

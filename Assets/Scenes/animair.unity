@@ -306,7 +306,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335292017}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c1d4dd7b7ae0d93409b0f26fb86a1b97, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c516a5ea548a9ee4e9afbb077b82c3dc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rawImage: {fileID: 335292020}
-  videoClip: {fileID: 32900000, guid: c1d4dd7b7ae0d93409b0f26fb86a1b97, type: 3}
+  videoClip: {fileID: 32900000, guid: c516a5ea548a9ee4e9afbb077b82c3dc, type: 3}
   nextSceneName: IrinasRooms
 --- !u!4 &1322413437
 Transform:

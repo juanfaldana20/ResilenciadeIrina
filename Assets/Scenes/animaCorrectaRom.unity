@@ -306,7 +306,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335292017}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 361862d009d74244092acadf83807796, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 30e0f9a153be0544a86d9568345ea51a, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rawImage: {fileID: 335292020}
-  videoClip: {fileID: 32900000, guid: 361862d009d74244092acadf83807796, type: 3}
+  videoClip: {fileID: 32900000, guid: 30e0f9a153be0544a86d9568345ea51a, type: 3}
   nextSceneName: animaSalir
 --- !u!4 &1322413437
 Transform:
